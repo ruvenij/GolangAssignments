@@ -14,7 +14,6 @@ import (
  */
 
 func timeConversion(s string) string {
-	//07:05:45PM
 	timeWithoutHour := s[2:8]
 	hour, _ := strconv.Atoi(s[0:2])
 	if strings.HasSuffix(s, "PM") && hour < 12 {

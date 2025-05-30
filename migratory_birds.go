@@ -7,6 +7,7 @@ package main
  * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
+// returns max bird type seen
 func migratoryBirds(arr []int32) int32 {
 	frequencyMap := make(map[int32]int32)
 	maxSight := arr[0]

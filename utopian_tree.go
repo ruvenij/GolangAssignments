@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 /*
  * Complete the 'utopianTree' function below.
  *
@@ -24,16 +20,16 @@ func utopianTree(n int32) int32 {
 	return height
 }
 
-func main() {
-	n := int32(0)
-	result := utopianTree(n)
-	fmt.Printf("%d\n", result)
-
-	n = int32(1)
-	result = utopianTree(n)
-	fmt.Printf("%d\n", result)
-
-	n = int32(4)
-	result = utopianTree(n)
-	fmt.Printf("%d\n", result)
-}
+//func main() {
+//	n := int32(0)
+//	result := utopianTree(n)
+//	fmt.Printf("%d\n", result)
+//
+//	n = int32(1)
+//	result = utopianTree(n)
+//	fmt.Printf("%d\n", result)
+//
+//	n = int32(4)
+//	result = utopianTree(n)
+//	fmt.Printf("%d\n", result)
+//}
